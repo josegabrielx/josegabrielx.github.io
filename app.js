@@ -5,7 +5,7 @@ function clock(){
     var hours = fullDate.getHours();
     var minutes = fullDate.getMinutes();
     var seconds = fullDate.getSeconds();
-    var year = fullDate.getFullYear;
+    var year = fullDate.getFullYear();
 
     if(hours < 10){
         hours = "0" + hours;
@@ -22,7 +22,5 @@ function clock(){
     document.getElementById('seconds').innerHTML = ":" + seconds;
     document.getElementById('year').innerHTML = year;
 }
-
-
 
 setInterval(clock, 100)
