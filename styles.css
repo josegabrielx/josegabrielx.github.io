@@ -16,6 +16,7 @@ body{
 .container{
     position: relative;
     padding: 0 0;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .main{
