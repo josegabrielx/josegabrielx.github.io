@@ -19,7 +19,7 @@ function clock(){
     document.getElementById('hour').innerHTML = hours;
     document.getElementById('minutes').innerHTML = ":" + minutes;
     document.getElementById('seconds').innerHTML = ":" + seconds;
-    document.getElementById('year').innerHTML = year;
+    document.getElementById('footer').innerHTML = "©"  + year + " Gabriel Rodriguez";
 
 }
 

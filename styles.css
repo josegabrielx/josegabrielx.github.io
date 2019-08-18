@@ -10,11 +10,15 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin:0;
+    padding:0;
+    height:100%;
 }
 
 .header{
     background: #e66357;
     text-align: center;
+    color: #EBEBEB;
 }
 
 .container{
@@ -54,11 +58,28 @@ body{
     border-radius: 4px;
 }
 
-.footer{
+#container {
+    min-height:100%;
+    position:relative;
+ }
+ #header {
+    background:#ff0;
+    padding:10px;
+ }
+#body {
+    padding:10px;
+    padding-bottom:60px;   /* Height of the footer */
+ }
+#footer{
     background: #e66357;
+    color: white;
     font-family: 'Orbitron', sans-serif;
     text-align: center;
     font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height:60px;   /* Height of the footer */
 }
 
 a {
