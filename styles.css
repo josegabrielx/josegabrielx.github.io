@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: url("clock-pattern.png") no-repeat center center fixed; 
+    background: url("primitive.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -52,6 +52,13 @@ body{
     padding-top: 20px;
     font-family: 'Orbitron', sans-serif;
     border-radius: 4px;
+}
+
+.footer{
+    background: #e66357;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-weight: bold;
 }
 
 a {

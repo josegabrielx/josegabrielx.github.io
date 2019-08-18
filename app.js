@@ -1,4 +1,4 @@
-console.log(ga.q);
+
 
 function clock(){
     const fullDate = new Date();
@@ -23,4 +23,4 @@ function clock(){
     document.getElementById('year').innerHTML = year;
 }
 
-setInterval(clock, 100)
+setInterval(clock, 100);
