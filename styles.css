@@ -33,6 +33,7 @@ body{
     height: 175px;
     margin: 100px auto; 
     position: relative;
+    border-top-right-radius: 0pt;
     padding: 30px;   
 }
 
@@ -82,12 +83,23 @@ body{
     height:60px;   /* Height of the footer */
 }
 
-a {
-    text-decoration: none;
+header nav {
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    background: rgba(232, 63, 0, 0.8);
+    font-family: 'Orbitron', sans-serif;
 }
 
-nav {
-    font-family: 'Orbitron', sans-serif;
+header nav a{
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    line-height: 1;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 ul {
